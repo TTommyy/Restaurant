@@ -137,3 +137,33 @@ body {
     color: #FED330;
     transition: ease 600ms;
 }
+
+/* Menu Selection */
+.menu {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    justify-content: space-evenly;
+}
+
+.menu-box {
+    margin-top: 4.5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80% 20%;
+    background: #f3f3f3;
+    height: 225px;
+}
+
+.desert, .drink, .entrees {
+    height: 100%;
+    width: 100%;
+}
+
+.menu-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* What We Offer Section */
