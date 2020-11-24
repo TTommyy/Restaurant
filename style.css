@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    background: #fff;
+    line-height: 32px;
+}
+
+/* Nav */
+.section1 {
+    height: 100vh;
+    width: 100%;
+    background: #000;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    transition: ease 825ms;
+    z-index: 1;
+}
+
+.nav h1 {
+    margin-left: 5%;
+    color: #fff;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Nova Round', cursive;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 35px;
+    font-size: 14px;
+}
+
+.nav ul {
+    margin-right: 2%;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Nav after */
+.nav-b {
+    display: flex;
+    width: 100%;
+    height: 62px;
+    background: #fff;
+    position: fixed;
+    transition: ease 825ms;
+    box-shadow: -3px 4px 5px rgba(0, 0, 0, 0.06);
+}
+
+.nav-b h1 {
+    color: #000;
+}
+
+.nav-b a {
+    color: #000;
+}
+
+/* Home Img */
+.home-img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 0;
+}
+
+/* Landing Page */
+.landing-p {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0%;
+    align-items: center;
+    margin-top: 14%;
+}
+
+.landing-p h1 {
+    font-size: 55px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Nova Round', cursive;
+    letter-spacing: 5px;
+    margin-top: 29px;
+}
+
+.landing-p h2 {
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    filter: opacity(75%);
+}
+
+.landing-p p {
+    font-size: 16px;
+    color: white;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.lp-button {
+    font-size: 15px;
+    font-weight: 700;
+    width: 155px;
+    height: 36px;
+    background: #FED330;
+    border: 3px #FED330 solid;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.lp-button:hover {
+    background: none;
+    color: #FED330;
+    transition: ease 600ms;
+}
