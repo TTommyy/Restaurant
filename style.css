@@ -488,3 +488,180 @@ body {
     font-size: 20px;
     margin-top: 2.5%;
 }
+
+/* Contact */
+.contact {
+    display: flex;
+    width: 100%;
+    height: 560px;
+    margin-top: 11%;
+}
+
+.contact-h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 58px;
+}
+
+.map-i {
+    width: 45px;
+    height: 51px;
+    position: absolute;
+    left: 4%;
+}
+
+.phone-i {
+    width: 45px;
+    height: 51px;
+    position: absolute;
+    left: 4.6%;
+    margin-top: 7.8%;
+}
+
+.envelope-i {
+    width: 65px;
+    height: 42px;
+    position: absolute;
+    left: 4%;
+    margin-top: 8.2%;
+}
+
+.us {
+    margin-top: 8%;
+}
+
+.location {
+    margin-left: 45%;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.location h1 {
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.location p {
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.phone {
+    margin-left: 45%;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.phone h1 {
+    font-size: 23px;
+    font-weight: bolder;
+    margin-top: 45%;
+}
+
+.phone p {
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.email {
+    margin-left: 45%;
+    display: flex;
+    flex-direction: column;
+    width: 195px;
+}
+
+.email h1 {
+    font-size: 23px;
+    font-weight: bolder;
+    margin-top: 49.5%;
+}
+
+.email p {
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+/* Input */
+.input {
+    margin-top: 8%;
+    margin-left: 28%;
+}
+
+#name-i {
+    width: 500px;
+    height: 43px;
+    background: #F0F5F5;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 4%;
+}
+
+#phone-i {
+    width: 500px;
+    height: 43px;
+    background: #F0F5F5;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 4%;
+    margin-top: 3.3%;
+}
+
+#email-i {
+    width: 500px;
+    height: 43px;
+    background: #F0F5F5;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 4%;
+    margin-top: 3.3%;
+}
+
+#msg-i {
+    width: 500px;
+    height: 115px;
+    background: #F0F5F5;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 4%;
+    margin-top: 3.3%;
+}
+
+.input-button {
+    width: 500px;
+    height: 45px;
+    background: #FED330;
+    border: 1px #FED330 solid;
+    border-radius: 10px;
+    margin-top: 5%;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.socials {
+    position: absolute;
+    left: 4.6%;
+    margin-top: 45%;
+    width: 40%;
+}
+
+.t-contact, .ig-contact, .fb-contact {
+    width: 20px;
+    height: 20px;
+}
+
+.t-contact, .ig-contact {
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.fb-contact {
+    cursor: pointer;
+}
