@@ -665,3 +665,18 @@ body {
 .fb-contact {
     cursor: pointer;
 }
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 190px;
+    background: #f3f3f3;
+    margin-top: 10%;
+}
+
+.copy, .images-footer, .fonts {
+    font-size: 23px;
+    margin-top: 3%;
+}
