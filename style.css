@@ -29,7 +29,7 @@ body {
     justify-content: space-between;
     align-items: center;
     transition: ease 825ms;
-    z-index: 1;
+    z-index: 3;
 }
 
 .nav h1 {
@@ -151,8 +151,8 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 80% 20%;
-    background: #f2f2f2;
     height: 225px;
+    box-shadow: -3px 4px 4px rgba(0, 0, 0, 0.06);
 }
 
 .desert, .drink, .entrees {
@@ -164,6 +164,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.menu-type h1 {
+    font-size: 25px;
 }
 
 /* What We Offer Section */
@@ -303,7 +307,139 @@ body {
     cursor: pointer;
 }
 
-.benefits-text h1, button, p {
+.benefits-text h1, .benefits-text button, .benefits-text p {
     margin-left: 6%;
     margin-right: 4%;
+}
+
+/* Categories */
+.latest {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: space-evenly;
+}
+
+.latest-slope {
+    display: flex;
+    flex-direction: column;
+    width: 365px;
+    height: 350px;
+    border-radius: 13px;
+    background: #100F0F;
+    margin-top: 15%;
+}
+
+.latest-slope-mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 365px;
+    height: 500px;
+    border-radius: 13px;
+    background: #100F0F;
+    margin-top: 15%;
+}
+
+.bagel {
+    position: absolute;
+}
+
+.l-pizza {
+    position: absolute;
+}
+
+.sandw {
+    position: absolute;
+}
+
+.l-slope-info1, .l-slope-info3 {
+    display: flex;
+    width: 365px;
+    height: 350px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+}
+
+.l-slope-info1 h1, .l-slope-info3 h1 {
+    margin-top: 8%;
+}
+
+.l-slope-info1 p, .l-slope-info3 p {
+    font-size: 15px;
+    margin-top: 9%;
+    margin-right: 15%;
+    margin-left: 15%;
+    line-height: 37px;
+}
+
+.latest-seperator {
+    width: 295px;
+    height: 2px;
+    background: #fff;
+    margin-top: 8%;
+}
+
+.l-button {
+    width: 175px;
+    height: 38px;
+    margin-top: 9%;
+    background: #FED330;
+    border: 1px #FED330 solid;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.l-button:hover {
+    border: 3px #FED330 solid;
+    color: #FED330;
+    background: none;
+    transition: ease 600ms;
+}
+
+.l-slope-info2 {
+    display: flex;
+    width: 365px;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+}
+
+.l-slope-info2 h1 {
+    margin-top: 8%;
+}
+
+.l-slope-info2 p {
+    font-size: 15px;
+    margin-top: 9%;
+    margin-right: 15%;
+    margin-left: 15%;
+    line-height: 39px;
+}
+
+.l-button-mid {
+    width: 185px;
+    height: 42px;
+    margin-top: 11%;
+    background: #FED330;
+    border: 1px #FED330 solid;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.l-button-mid:hover {
+    border: 3px #FED330 solid;
+    color: #FED330;
+    background: none;
+    transition: ease 600ms;
 }
